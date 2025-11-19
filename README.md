@@ -12,8 +12,6 @@ You can paste this directly into `README.md`.
 ---
 
 # ✅ **FINAL PREMIUM README.md (With Curated GIFs)**
-
-```markdown
 <!-- =========================================================
  🏋️‍♂️ FitLife Next.js Starter  
  Premium Developer-Portfolio Style README  
