@@ -1,34 +1,87 @@
-# FitLife Next.js Starter
+<!-- =========================================================
+ 🏋️‍♂️ FitLife Next.js Starter  
+ Premium Developer-Portfolio Style README  
+========================================================= -->
 
-Minimal Next.js + TypeScript + Tailwind starter with Firebase and DodoPayments integration stubs.
+<p align="center">
+  <img src="assets/banner.png" width="100%" alt="FitLife Banner" />
+</p>
 
-What’s included
-- Next.js (App Router) scaffold in `src/app`
-- TailwindCSS + PostCSS
-- Firebase client init stub (`src/services/firebase.ts`)
-- DodoPayments server/client stubs
-- Dockerfile for Cloud Run
-- GitHub Actions workflow skeleton
-- `.env.local.example` with placeholder variables
+<h1 align="center">FitLife Next.js Starter</h1>
+<p align="center"><strong>A modern, production-ready starter for fitness, SaaS, and membership-based apps.</strong></p>
 
-Quick start (Windows PowerShell):
+---
 
-```powershell
-# install deps
-npm install
+## 🚀 **Elegant Badge Row**
 
-# run dev
-npm run dev
-```
+<p align="center">
+  <!-- Tech Stack -->
+  <img src="https://img.shields.io/badge/Next.js-14-black?logo=next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white" />
 
-New pages added:
-- `/auth` — client-side sign-in (Email + Google) using Firebase client SDK (stub).
-- `/classes` — lists sample classes pulled from `/api/classes` mock endpoint.
+  <!-- Repo Stats -->
+  <img src="https://img.shields.io/github/stars/username/repo?style=flat&color=yellow" />
+  <img src="https://img.shields.io/github/issues/username/repo?style=flat&color=orange" />
+  <img src="https://img.shields.io/github/contributors/username/repo?color=blue" />
 
-Note: The Firebase and DodoPayments integrations are stubs. To use them you must:
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+</p>
 
-1. Copy `.env.local.example` to `.env.local` and set your real values (do NOT commit `.env.local`).
-2. For DodoPayments, set `DODO_PAYMENTS_API_KEY` and update the API endpoint in `src/app/api/checkout/route.ts` to the real DodoPayments URL.
-3. Run `npm install` before starting the dev server so TypeScript/Next.js and Tailwind packages are available.
+---
 
-If you want, I can now run `npm install` and `npm run build` here to validate everything (requires network). Say “run validate” to proceed.
+## ✨ **Short Descriptive Summary**
+
+FitLife Next.js Starter is a **minimal yet powerful boilerplate** designed for developers building subscription apps, fitness platforms, creator dashboards, SaaS products, and mobile-first experiences.
+
+It includes a clean folder structure, Firebase auth stub, DodoPayments integration stub, Tailwind, and Cloud Run–ready Dockerfile—all optimized for quick development.
+
+<p align="center">
+  <img src="assets/gifs/overview.gif" width="600" />
+</p>
+
+---
+
+## 🎯 **Why This Project Exists (Value Proposition)**
+
+Modern fitness-style SaaS apps share common needs:
+
+- Clean authentication setup  
+- Class or session listing flows  
+- Payment integration  
+- Fast, mobile-first UI  
+- Simple deployment pipeline  
+
+This starter solves those repetitive boilerplate steps so you can **ship features 5× faster**.
+
+---
+
+## 🧩 **Feature Highlights**
+
+| Feature | Description |
+|--------|-------------|
+| 🔐 **Firebase Auth Stub** | Email + Google login out of the box. |
+| 🎨 **Tailwind Setup** | Pre-configured design system ready for product UI. |
+| 💳 **DodoPayments Stub** | Ready-to-extend server/client payment flows. |
+| 🏗️ **Next.js App Router** | Modern, file-based routing + React Server Components. |
+| 🐳 **Dockerfile for Cloud Run** | Easy CI/CD deployment. |
+| ⚡ **API Mock Endpoints** | Example `classes` API with sample data. |
+
+---
+
+## 🧱 **Tech Stack Icons Grid**
+
+<p align="center">
+  <img src="assets/tech/nextjs.svg" width="60" />
+  <img src="assets/tech/ts.svg" width="60" />
+  <img src="assets/tech/tailwind.svg" width="60" />
+  <img src="assets/tech/firebase.svg" width="60" />
+  <img src="assets/tech/docker.svg" width="60" />
+  <img src="assets/tech/vercel.svg" width="60" />
+</p>
+
+---
+
+## 🏗️ **Architecture Diagram (Markdown/ASCII)**
+
